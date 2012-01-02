@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_INGTweetAuthenticationService"
+                    maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:1883/NGTweetAuthenticationService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_INGTweetAuthenticationService"
+                contract="INGTweetAuthenticationService.INGTweetAuthenticationService"
+                name="BasicHttpBinding_INGTweetAuthenticationService" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,5 @@
+C:\Silverlight\NGTweet\NGTweet.Web\bin\NGTweet.Web.dll
+C:\Silverlight\NGTweet\NGTweet.Web\bin\NGTweet.Web.pdb
+C:\Silverlight\NGTweet\NGTweet.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Silverlight\NGTweet\NGTweet.Web\obj\Debug\NGTweet.Web.dll
+C:\Silverlight\NGTweet\NGTweet.Web\obj\Debug\NGTweet.Web.pdb

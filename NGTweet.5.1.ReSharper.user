@@ -1,0 +1,841 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:SendTweetRequest.cs" caret="96" fromTop="6" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:LoginResponse.cs" caret="249" fromTop="12" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:SendTweetResponse.cs" caret="0" fromTop="0" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:ReTweetRequest.cs" caret="0" fromTop="0" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:Interfaces/f:INGTweetAuthenticationService.cs" caret="792" fromTop="29" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:RetweetResponse.cs" caret="169" fromTop="7" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:Adapters/f:TweeterUserAdapter.cs" caret="531" fromTop="17" />
+      <File id="02EB1423-1F53-4DA3-8D29-19C5B2A63607/d:Services/f:NGTweetAuthenticationServiceTest.cs" caret="5670" fromTop="12" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DTO/f:GetTweetResponse.cs" caret="273" fromTop="11" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:Adapters/f:TweeterStatusAdapter.cs" caret="837" fromTop="26" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/d:DomainObjects/f:NGTweeterStatus.cs" caret="374" fromTop="16" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/d:Service References/d:INGTweetAuthenticationService/f:Reference.cs" caret="73938" fromTop="13" />
+      <File id="3E135871-886F-421A-877A-93A3C4296552/f:TweeterStatusViewModelTest.cs" caret="0" fromTop="0" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:MainViewModel.cs" caret="0" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:ViewModel/f:ViewModelLocator.cs" caret="0" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/f:MainPage.xaml" caret="0" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:UserControls/f:TimeLine.xaml.cs" caret="0" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/f:App.xaml.cs" caret="402" fromTop="15" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:MentionsViewModel.cs" caret="13" fromTop="0" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModel.cs" caret="1827" fromTop="12" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TweetViewModel.cs" caret="1873" fromTop="34" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:RetweetViewModel.cs" caret="440" fromTop="15" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModelBase.cs" caret="572" fromTop="11" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="6218" fromTop="20" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:UserControls/f:TimeLine.xaml" caret="1002" fromTop="15" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/f:NGTweetAuthenticationService.cs" caret="604" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TweetViewModel.cs" caret="387" fromTop="15" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModelBase.cs" caret="2450" fromTop="33" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="2468" fromTop="12" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="3353" fromTop="33" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="3024" fromTop="16" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="3551" fromTop="22" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="9809" fromTop="34" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="5702" fromTop="12" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="7704" fromTop="21" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="6278" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="7491" fromTop="25" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="6282" fromTop="3" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="9817" fromTop="26" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:UserControls/f:TimeLine.xaml" caret="1414" fromTop="30" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="9817" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="2337" fromTop="0" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="414" fromTop="4" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModel.cs" caret="2545" fromTop="24" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:RetweetViewModel.cs" caret="806" fromTop="18" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:RetweetViewModel.cs" caret="440" fromTop="15" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModelBase.cs" caret="2179" fromTop="23" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModelBase.cs" caret="1207" fromTop="17" />
+      <File id="90A51838-64CC-46A7-A22B-22A5A6B51984/f:TimeLineViewModelBase.cs" caret="759" fromTop="3" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="4177" fromTop="10" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:Assets/d:Styles/f:TimeLineListItemStyle.xaml" caret="8342" fromTop="16" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:UserControls/f:TimeLine.xaml" caret="1033" fromTop="18" />
+      <File id="66BA630E-134F-4F00-B160-6C863F012908/d:UserControls/f:TimeLine.xaml" caret="1033" fromTop="16" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/f:NGTweetAuthenticationService.cs" caret="1031" fromTop="25" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/f:NGTweetAuthenticationService.cs" caret="1027" fromTop="27" />
+      <File id="A7068F6C-53A0-4185-9D85-26FF919AF595/f:NGTweetAuthenticationService.cs" caret="567" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:TweetSharp.TwitterService">
+      <Item value="ListTweetsOnPublicTimeline`0" priority="0" />
+      <Item value="ListTweetsOnUserTimeline`0" priority="0" />
+      <Item value="ListTweetsOnSpecifiedUserTimeline`0" priority="0" />
+      <Item value="ListTweetsOnHomeTimeline`0" priority="1" />
+      <Item value="Expect`2" priority="2" />
+      <Item value="GetAccessToken`0" priority="1" />
+      <Item value="AssertWasCalled`1" priority="0" />
+      <Item value="GetRequestToken`0" priority="0" />
+      <Item value="GetAuthorizationUri`0" priority="0" />
+      <Item value="VerifyAllExpectations`0" priority="0" />
+      <Item value="ListTweetsMentioningMe`0" priority="0" />
+      <Item value="AuthenticateWith`0" priority="1" />
+      <Item value="UserAgent" priority="0" />
+      <Item value="ListTweetsOnHomeTimelineSince`0" priority="2" />
+      <Item value="ListTweetsMentioningMeSince`0" priority="0" />
+      <Item value="SendTweet`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="return" priority="28" />
+      <Item value="tweets" priority="2" />
+      <Item value="DataMember" priority="17" />
+      <Item value="new" priority="106" />
+      <Item value="GetDataResponse" priority="1" />
+      <Item value="TwitterStatuses" priority="0" />
+      <Item value="public" priority="52" />
+      <Item value="string" priority="25" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="foreach" priority="2" />
+      <Item value="List" priority="0" />
+      <Item value="NGTweeterStatus`0" priority="9" />
+      <Item value="adaptedTweets" priority="3" />
+      <Item value="ScreenName" priority="6" />
+      <Item value="twitterStatuse" priority="10" />
+      <Item value="Tweet" priority="2" />
+      <Item value="using" priority="4" />
+      <Item value="System" priority="2" />
+      <Item value="Collections" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="adapter" priority="0" />
+      <Item value="DataContract" priority="2" />
+      <Item value="Loaded" priority="2" />
+      <Item value="client" priority="2" />
+      <Item value="NGTweetSharpServiceClient" priority="0" />
+      <Item value="GetDataResponse`0" priority="3" />
+      <Item value="e" priority="10" />
+      <Item value="lstTweets" priority="1" />
+      <Item value="response" priority="14" />
+      <Item value="access" priority="2" />
+      <Item value="verifier" priority="0" />
+      <Item value="if" priority="20" />
+      <Item value="userSettings" priority="2" />
+      <Item value="else" priority="8" />
+      <Item value="private" priority="12" />
+      <Item value="requestToken" priority="3" />
+      <Item value="OperationContext`0" priority="0" />
+      <Item value="OperationContract" priority="6" />
+      <Item value="NGTweetAuthenticationService" priority="2" />
+      <Item value="NGTweetAuthenticationServiceClient" priority="0" />
+      <Item value="authenticationClient" priority="8" />
+      <Item value="getRequestTokenResponse" priority="1" />
+      <Item value="accessToken" priority="16" />
+      <Item value="txtVerifier" priority="0" />
+      <Item value="void" priority="30" />
+      <Item value="mentions" priority="0" />
+      <Item value="TweetSharp" priority="2" />
+      <Item value="Serialization" priority="1" />
+      <Item value="_service" priority="2" />
+      <Item value="TwitterService" priority="0" />
+      <Item value="Model" priority="0" />
+      <Item value="Runtime" priority="0" />
+      <Item value="loginResponse" priority="4" />
+      <Item value="verifierPanel" priority="0" />
+      <Item value="Visibility" priority="4" />
+      <Item value="Visibility`0" priority="2" />
+      <Item value="request" priority="18" />
+      <Item value="RequestToken" priority="4" />
+      <Item value="LoginRequest`0" priority="1" />
+      <Item value="LoginRequest" priority="1" />
+      <Item value="ChildWindow" priority="0" />
+      <Item value="ApplicationError`0" priority="2" />
+      <Item value="ApplicationError" priority="0" />
+      <Item value="errorWindow" priority="4" />
+      <Item value="prop" priority="3" />
+      <Item value="DataContext" priority="3" />
+      <Item value="ErrorMessage" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="null" priority="14" />
+      <Item value="errorWindow_Closed`0" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="User" priority="4" />
+      <Item value="TweeterUserAdapter`0" priority="1" />
+      <Item value="twitterUser" priority="4" />
+      <Item value="NGTweeterUser" priority="3" />
+      <Item value="Id" priority="8" />
+      <Item value="Name" priority="5" />
+      <Item value="TweeterUserAdapter" priority="1" />
+      <Item value="CreatedDate" priority="4" />
+      <Item value="TestInitialize" priority="6" />
+      <Item value="tweeterStatusAdapter" priority="3" />
+      <Item value="TweeterStatusAdapter" priority="1" />
+      <Item value="TwitterStatus" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="Assert`0" priority="39" />
+      <Item value="result" priority="7" />
+      <Item value="Linq" priority="0" />
+      <Item value="TestMethod" priority="20" />
+      <Item value="TwitterUser" priority="1" />
+      <Item value="UriBuilder`0" priority="0" />
+      <Item value="TwitterStatus`0" priority="2" />
+      <Item value="ts" priority="1" />
+      <Item value="Builder" priority="2" />
+      <Item value="NGTweeterUser`0" priority="0" />
+      <Item value="twitterStatuses" priority="1" />
+      <Item value="in" priority="0" />
+      <Item value="adaptedStatuses" priority="0" />
+      <Item value="VerifyListResults`0" priority="0" />
+      <Item value="adaptedStatus" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="count" priority="2" />
+      <Item value="adaptedStatuse" priority="2" />
+      <Item value="userAdapter" priority="1" />
+      <Item value="ProfileImageUrl" priority="3" />
+      <Item value="Convert_WithTwitterUser_ShouldAdaptToNGTweeterUser`0" priority="0" />
+      <Item value="sourceUser" priority="0" />
+      <Item value="StringAssert`0" priority="0" />
+      <Item value="NGTweetAuthenticationService`0" priority="2" />
+      <Item value="TwitterService`0" priority="1" />
+      <Item value="twitterService" priority="0" />
+      <Item value="this" priority="9" />
+      <Item value="_authenticationService" priority="20" />
+      <Item value="MockRepository" priority="0" />
+      <Item value="TestCleanup" priority="0" />
+      <Item value="_mocks" priority="2" />
+      <Item value="_mockTwitterService" priority="9" />
+      <Item value="OAuthRequestToken" priority="2" />
+      <Item value="Pin" priority="1" />
+      <Item value="OAuthAccessToken`0" priority="5" />
+      <Item value="OAuthAccessToken" priority="6" />
+      <Item value="mockService" priority="5" />
+      <Item value="loginRequest" priority="4" />
+      <Item value="MockRepository`0" priority="0" />
+      <Item value="OAuthRequestToken`0" priority="0" />
+      <Item value="Uri" priority="2" />
+      <Item value="AbsoluteUri" priority="0" />
+      <Item value="authorizationUri" priority="2" />
+      <Item value="requestTokenResponse" priority="5" />
+      <Item value="MainViewModelTest`0" priority="0" />
+      <Item value="viewModel" priority="21" />
+      <Item value="mockAuthenticationService" priority="0" />
+      <Item value="INGTweetAuthenticationService`0" priority="4" />
+      <Item value="Mock`0" priority="25" />
+      <Item value="_viewModel" priority="23" />
+      <Item value="MainViewModel" priority="0" />
+      <Item value="_mockAuthenticationService" priority="13" />
+      <Item value="_isVerificationDetailsVisible" priority="0" />
+      <Item value="value" priority="7" />
+      <Item value="RaisePropertyChanged`0" priority="6" />
+      <Item value="IsVerificationDetailsVisible" priority="3" />
+      <Item value="_applicationSettingsProvider" priority="13" />
+      <Item value="m" priority="8" />
+      <Item value="bool" priority="1" />
+      <Item value="_accesstoken" priority="1" />
+      <Item value="UserHasLoginHistory`0" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="InternalsVisibleTo" priority="0" />
+      <Item value="AsyncCallback" priority="1" />
+      <Item value="It`0" priority="12" />
+      <Item value="IAsyncResult`0" priority="12" />
+      <Item value="AsyncCallback`0" priority="3" />
+      <Item value="false" priority="8" />
+      <Item value="Accesstoken" priority="3" />
+      <Item value="object" priority="4" />
+      <Item value="ar" priority="5" />
+      <Item value="_userSettings" priority="0" />
+      <Item value="key" priority="0" />
+      <Item value="TweeterStatuses" priority="1" />
+      <Item value="ObservableCollection&lt;NGTweeterStatus&gt;" priority="1" />
+      <Item value="mockAsyncResult" priority="5" />
+      <Item value="internal" priority="1" />
+      <Item value="CollectionAssert`0" priority="0" />
+      <Item value="visibility" priority="1" />
+      <Item value="NGTweetAuthenticationServiceClient`0" priority="2" />
+      <Item value="ViewModelLocator`0" priority="0" />
+      <Item value="ViewModelLocator" priority="0" />
+      <Item value="locator" priority="0" />
+      <Item value="true" priority="8" />
+      <Item value="Strict" priority="1" />
+      <Item value="GetTweetsCompletedEventArgs" priority="0" />
+      <Item value="GetTweetsCompletedEventArgs`0" priority="1" />
+      <Item value="Ignore" priority="1" />
+      <Item value="INGTweetAuthenticationService" priority="0" />
+      <Item value="GetTweetsCompleted`0" priority="0" />
+      <Item value="GetRequestTokenResponse" priority="0" />
+      <Item value="AuthorizationUri" priority="0" />
+      <Item value="_mockApplicationSettingsProvider" priority="4" />
+      <Item value="VerificationPIN" priority="0" />
+      <Item value="Func&lt;LoginResponse&gt;" priority="0" />
+      <Item value="AccessToken" priority="2" />
+      <Item value="_mockDialogSerive" priority="0" />
+      <Item value="_dialogSerive" priority="0" />
+      <Item value="successMessage" priority="1" />
+      <Item value="message" priority="0" />
+      <Item value="OK" priority="1" />
+      <Item value="DialogService`0" priority="0" />
+      <Item value="Dispatcher`0" priority="0" />
+      <Item value="Dispatcher" priority="4" />
+      <Item value="event" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="NavigateToAuthorizationPage`0" priority="1" />
+      <Item value="NavigateToAuthorizationPage" priority="1" />
+      <Item value="NavigateToAuthorizationPageArgs" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="AuthorizeAppCommand" priority="0" />
+      <Item value="Deployment`0" priority="0" />
+      <Item value="Messenger`0" priority="3" />
+      <Item value="navigationUri" priority="0" />
+      <Item value="MessengerInstance" priority="2" />
+      <Item value="Uri`0" priority="1" />
+      <Item value="DialogMessage`0" priority="1" />
+      <Item value="Button" priority="0" />
+      <Item value="obj" priority="3" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="ImageSource`0" priority="1" />
+      <Item value="_profileImageSource" priority="1" />
+      <Item value="Absolute" priority="0" />
+      <Item value="imageUri" priority="0" />
+      <Item value="propg" priority="0" />
+      <Item value="ObservableCollection" priority="1" />
+      <Item value="TweeterStatusViewModel`0" priority="0" />
+      <Item value="_tweeterStatus" priority="4" />
+      <Item value="String`0" priority="0" />
+      <Item value="TweeterStatusViewModels" priority="5" />
+      <Item value="TweeterStatusViewModel" priority="3" />
+      <Item value="status" priority="0" />
+      <Item value="ObservableCollection&lt;TweeterStatusViewModels&gt;" priority="0" />
+      <Item value="statuses" priority="1" />
+      <Item value="dialogMessage" priority="0" />
+      <Item value="DispatcherHelper`0" priority="2" />
+      <Item value="_twitterService" priority="7" />
+      <Item value="Token" priority="0" />
+      <Item value="TokenSecret" priority="0" />
+      <Item value="TimeLineViewModel" priority="1" />
+      <Item value="tweeterStatuses" priority="2" />
+      <Item value="_tweeterStatuses" priority="2" />
+      <Item value="t" priority="2" />
+      <Item value="_tweeterStatusViewModels" priority="2" />
+      <Item value="ObservableCollection&lt;TweeterStatusViewModel&gt;" priority="0" />
+      <Item value="ReadOnlyObservableCollection" priority="0" />
+      <Item value="ACCESS_TOKEN" priority="0" />
+      <Item value="asyncResult" priority="0" />
+      <Item value="AddNewTweets`0" priority="0" />
+      <Item value="Mock" priority="0" />
+      <Item value="static" priority="1" />
+      <Item value="TimeLineViewModel`0" priority="1" />
+      <Item value="_timeLineViewModel" priority="1" />
+      <Item value="NGApplicationSettingsProvider`0" priority="1" />
+      <Item value="_isBusy" priority="1" />
+      <Item value="IsBusy" priority="6" />
+      <Item value="MentionsViewModel`0" priority="2" />
+      <Item value="_mentionsViewModel" priority="0" />
+      <Item value="DispatcherTimer" priority="1" />
+      <Item value="_refreshTime" priority="1" />
+      <Item value="TimeSpan`0" priority="3" />
+      <Item value="DateTime`0" priority="4" />
+      <Item value="out" priority="0" />
+      <Item value="createdDate" priority="2" />
+      <Item value="timeDifference" priority="3" />
+      <Item value="Math`0" priority="2" />
+      <Item value="_refreshTimer" priority="0" />
+      <Item value="refreshTimer" priority="2" />
+      <Item value="LoadTweetsFromTimeLine`0" priority="0" />
+      <Item value="GetTweetsRequest`0" priority="1" />
+      <Item value="GetTweetsRequest" priority="1" />
+      <Item value="LastTweetId" priority="0" />
+      <Item value="base" priority="1" />
+      <Item value="authenticationService" priority="1" />
+      <Item value="applicationSettingsProvider" priority="1" />
+      <Item value="TimeLineViewModelBase`0" priority="0" />
+      <Item value="abstract" priority="0" />
+      <Item value="TweetActionViewModel" priority="1" />
+      <Item value="ICommand`0" priority="0" />
+      <Item value="_canPerformTweetAction" priority="0" />
+      <Item value="_tweetText" priority="3" />
+      <Item value="TweetText" priority="3" />
+      <Item value="CanPerformTweetAction" priority="1" />
+      <Item value="CreateTweetRequest" priority="0" />
+      <Item value="CreateTweetResponse" priority="0" />
+      <Item value="CreateTweetResponse`0" priority="0" />
+      <Item value="CreateTweetRequest`0" priority="0" />
+      <Item value="twitterStatusStatus" priority="0" />
+      <Item value="TwitterUser`0" priority="0" />
+      <Item value="sendTweetResponse" priority="3" />
+      <Item value="TweeterStatusAdapter`0" priority="0" />
+      <Item value="twitterStatus" priority="3" />
+      <Item value="SendTweetResponse`0" priority="0" />
+      <Item value="SendTweetResponse" priority="1" />
+      <Item value="TweeterStatus" priority="0" />
+      <Item value="Convert`0" priority="2" />
+      <Item value="SendTweetRequest`0" priority="0" />
+      <Item value="SendTweetRequest" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="TweetActionViewModel`0" priority="1" />
+      <Item value="_tweetActionViewModel" priority="1" />
+      <Item value="switch" priority="0" />
+      <Item value="columnName" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="HasValidText`0" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="default" priority="0" />
+      <Item value="MAX_CHARACTERS" priority="0" />
+      <Item value="DisplayNotification`0" priority="0" />
+      <Item value="NotificationWindow" priority="0" />
+      <Item value="notification" priority="2" />
+      <Item value="border" priority="0" />
+      <Item value="notificationWindow" priority="0" />
+      <Item value="TimeLine`0" priority="0" />
+      <Item value="newTweet" priority="2" />
+      <Item value="Char`0" priority="0" />
+      <Item value="long" priority="1" />
+      <Item value="retweetedStatus" priority="0" />
+      <Item value="RetweetedStatus" priority="1" />
+      <Item value="originalTwitterStatus" priority="0" />
+      <Item value="NGTweeterStatus" priority="2" />
+      <Item value="RetweetCommand" priority="0" />
+      <Item value="TweetId" priority="0" />
+      <Item value="tweet" priority="0" />
+      <Item value="tweeterStatus" priority="1" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="IApplicationSettingsProvider`0" priority="0" />
+      <Item value="NormalTweet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharp.TwitterStatus">
+      <Item value="User" priority="4" />
+      <Item value="Text" priority="2" />
+      <Item value="CreatedDate" priority="1" />
+      <Item value="RetweetedStatus" priority="4" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharp.TwitterUser">
+      <Item value="ScreenName" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="ProfileImageUrl" priority="0" />
+      <Item value="UtcOffset" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetSharpService.TweetSharpServiceClient">
+      <Item value="GetDataCompleted" priority="0" />
+      <Item value="GetDataAsync`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetSharpService.GetDataCompletedEventArgs">
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="DataContext" priority="0" />
+      <Item value="ItemsSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetSharpService.GetDataResponse">
+      <Item value="TweeterStatuses" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.IsolatedStorage.IsolatedStorageSettings">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.NGTweetAuthenticationServiceClient">
+      <Item value="GetRequestTokenCompleted" priority="0" />
+      <Item value="GetRequestTokenAsync`0" priority="0" />
+      <Item value="LoginCompleted" priority="0" />
+      <Item value="LoginAsync`0" priority="0" />
+      <Item value="GetTweetsCompleted" priority="0" />
+      <Item value="GetTweetsAsync`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.GetRequestTokenCompletedEventArgs">
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.GetRequestTokenResponse">
+      <Item value="RequestToken" priority="0" />
+      <Item value="AuthorizationUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Browser.HtmlPage">
+      <Item value="Window" priority="1" />
+      <Item value="PopupWindow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Browser.HtmlWindow">
+      <Item value="Navigate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.LoginCompletedEventArgs">
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.LoginResponse">
+      <Item value="OAuthAccessToken" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharp.OAuthAccessToken">
+      <Item value="UserId" priority="0" />
+      <Item value="Token" priority="1" />
+      <Item value="TokenSecret" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="Visibility" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Visibility">
+      <Item value="Collapsed" priority="1" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.LoginRequest">
+      <Item value="RequestToken" priority="0" />
+      <Item value="Pin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.NGTweetAuthenticationService.GetTweetsCompletedEventArgs">
+      <Item value="Error" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ApplicationError">
+      <Item value="ErrorMessage" priority="0" />
+      <Item value="Closed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.Adapters.TweeterStatusAdapter">
+      <Item value="Convert`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="14" />
+      <Item value="AreSame`0" priority="0" />
+      <Item value="IsNotNull`0" priority="9" />
+      <Item value="IsFalse`0" priority="5" />
+      <Item value="IsTrue`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FizzWare.NBuilder.Builder`1">
+      <Item value="CreateListOfSize`0" priority="0" />
+      <Item value="CreateNew`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FizzWare.NBuilder.IListBuilder`1">
+      <Item value="Build`0" priority="0" />
+      <Item value="WhereAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FizzWare.NBuilder.IOperable`1">
+      <Item value="Have`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FizzWare.NBuilder.ISingleObjectBuilder`1">
+      <Item value="Build`0" priority="4" />
+      <Item value="With`2" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="1" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DomainObjects.NGTweeterStatus">
+      <Item value="Tweet" priority="1" />
+      <Item value="CreatedDate" priority="0" />
+      <Item value="User" priority="0" />
+      <Item value="RetweetedStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.Adapters.TweeterUserAdapter">
+      <Item value="Convert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DomainObjects.NGTweeterUser">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="ScreenName" priority="0" />
+      <Item value="ProfileImageUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert">
+      <Item value="Matches`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="VerifyAllExpectations`0" priority="0" />
+      <Item value="StrictMock`1" priority="0" />
+      <Item value="ReplayAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.LoginRequest">
+      <Item value="RequestToken" priority="1" />
+      <Item value="Pin" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.NGTweetAuthenticationService">
+      <Item value="Login`0" priority="0" />
+      <Item value="GetRequestToken`0" priority="0" />
+      <Item value="SendTweet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.LoginResponse">
+      <Item value="OAuthAccessToken" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateMock`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.GetRequestTokenResponse">
+      <Item value="RequestToken" priority="0" />
+      <Item value="AuthorizationUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="11" />
+      <Item value="Setup`1" priority="8" />
+      <Item value="VerifyAll`0" priority="9" />
+      <Item value="SetupGet`1" priority="0" />
+      <Item value="Raise`0" priority="0" />
+      <Item value="Verify`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.MainViewModel">
+      <Item value="IsVerificationDetailsVisible" priority="4" />
+      <Item value="GetTweetsForUser`0" priority="0" />
+      <Item value="GetTweetsCompleted`0" priority="1" />
+      <Item value="TweeterStatuses" priority="0" />
+      <Item value="Login`0" priority="1" />
+      <Item value="GetRequestTokenCompleted`0" priority="0" />
+      <Item value="AuthorizeWithPinCompleted`0" priority="0" />
+      <Item value="NavigateToAuthorizationPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Mock">
+      <Item value="Get`1" priority="18" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.IApplicationSettingsProvider">
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.INGTweetAuthenticationService">
+      <Item value="BeginGetTweets`0" priority="6" />
+      <Item value="EndGetTweets`0" priority="5" />
+      <Item value="BeginLogin`0" priority="0" />
+      <Item value="BeginGetRequestToken`0" priority="0" />
+      <Item value="EndGetRequestToken`0" priority="1" />
+      <Item value="EndLogin`0" priority="1" />
+      <Item value="BeginGetTweetsMentioningMe`0" priority="1" />
+      <Item value="EndGetTweetsMentioningMe`0" priority="1" />
+      <Item value="BeginGetTweetsSince`0" priority="0" />
+      <Item value="BeginSendTweet`0" priority="0" />
+      <Item value="EndSendTweet`0" priority="0" />
+      <Item value="BeginRetweet`0" priority="0" />
+      <Item value="EndRetweet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="13" />
+      <Item value="Is`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`1" priority="6" />
+      <Item value="Callback`1" priority="0" />
+      <Item value="Returns`16" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.GetDataResponse">
+      <Item value="TweeterStatuses" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.NGTweetAuthenticationServiceClient">
+      <Item value="GetTweetsAsync`0" priority="2" />
+      <Item value="GetTweetsCompleted" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetupGetter`2">
+      <Item value="Returns`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert">
+      <Item value="AreEqual`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModel.ViewModelLocator">
+      <Item value="Main" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.GetTweetsCompletedEventArgs">
+      <Item value="Result" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.GetRequestTokenResponse">
+      <Item value="RequestToken" priority="2" />
+      <Item value="AuthorizationUri" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.LoginResponse">
+      <Item value="OAuthAccessToken" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.IDialogService">
+      <Item value="ShowMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="BeginInvoke`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.NavigateToAuthorizationPageArgs">
+      <Item value="AuthorizationUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Deployment">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Deployment">
+      <Item value="Dispatcher" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GalaSoft.MvvmLight.Threading.DispatcherHelper">
+      <Item value="UIDispatcher" priority="1" />
+      <Item value="Initialize`0" priority="1" />
+      <Item value="CheckBeginInvokeOnUI`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Media.Imaging.BitmapImage">
+      <Item value="UriSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.ExceptionRoutedEventArgs">
+      <Item value="OriginalSource" priority="0" />
+      <Item value="ErrorException" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GalaSoft.MvvmLight.Messaging.Messenger">
+      <Item value="Default" priority="7" />
+      <Item value="OverrideDefault`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GalaSoft.MvvmLight.Messaging.Messenger">
+      <Item value="Register`1" priority="4" />
+      <Item value="Send`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GalaSoft.MvvmLight.Messaging.IMessenger">
+      <Item value="Send`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GalaSoft.MvvmLight.Messaging.DialogMessage">
+      <Item value="Content" priority="0" />
+      <Item value="Caption" priority="1" />
+      <Item value="Button" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="RelativeOrAbsolute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.NGTweeterStatus">
+      <Item value="User" priority="1" />
+      <Item value="CreatedDate" priority="2" />
+      <Item value="Tweet" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="RetweetedStatus" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.NGTweeterUser">
+      <Item value="ProfileImageUrl" priority="0" />
+      <Item value="ScreenName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="3" />
+      <Item value="Count" priority="2" />
+      <Item value="Insert`0" priority="2" />
+      <Item value="OrderBy`2" priority="0" />
+      <Item value="Reverse`1" priority="0" />
+      <Item value="First`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.GetDataResponse">
+      <Item value="TweeterStatuses" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="ForEach`0" priority="0" />
+      <Item value="OrderByDescending`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.TimeLineViewModel">
+      <Item value="GetTweetsCompleted`0" priority="0" />
+      <Item value="TweeterStatusViewModels" priority="0" />
+      <Item value="LoadTweetsFromTimeLine`0" priority="0" />
+      <Item value="GetTweetsSinceCompleted`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.MentionsViewModel">
+      <Item value="GetTweetsMentioningMe`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.DispatcherTimer">
+      <Item value="Interval" priority="1" />
+      <Item value="Tick" priority="1" />
+      <Item value="Start`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="1" />
+      <Item value="FromMinutes`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="TryParse`0" priority="0" />
+      <Item value="Now" priority="0" />
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMinutes" priority="3" />
+      <Item value="TotalSeconds" priority="0" />
+      <Item value="TotalHours" priority="1" />
+      <Item value="TotalDays" priority="1" />
+      <Item value="TotalMilliseconds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+      <Item value="Empty" priority="6" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="IsNullOrWhiteSpace`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="0" />
+      <Item value="AddHours`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.GetTweetsRequest">
+      <Item value="AccessToken" priority="0" />
+      <Item value="LastTweetId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.GetTweetsRequest">
+      <Item value="AccessToken" priority="1" />
+      <Item value="LastTweetId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Match`1">
+      <Item value="Create`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.TweetActionViewModel">
+      <Item value="CanPerformTweetAction" priority="3" />
+      <Item value="TweetText" priority="3" />
+      <Item value="OnTweetActionCommand`0" priority="0" />
+      <Item value="IsBusy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.CreateTweetRequest">
+      <Item value="TweetText" priority="1" />
+      <Item value="AccessToken" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.SendTweetRequest">
+      <Item value="Status" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.SendTweetResponse">
+      <Item value="TweeterStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.SendTweetRequest">
+      <Item value="Status" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.NotificationWindow">
+      <Item value="Height" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Content" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NGTweet.ViewModels.INGTweetAuthenticationService.SendTweetResponse">
+      <Item value="TweeterStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.ReTweetRequest">
+      <Item value="TweetId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TweetSharpService.DTO.RetweetResponse">
+      <Item value="TweeterStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Style">
+      <Item value="TargetType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerMSTest>
+    <RunTestsEvenIfCodeCoverageEnabled>True</RunTestsEvenIfCodeCoverageEnabled>
+  </UnitTestRunnerMSTest>
+</Configuration>

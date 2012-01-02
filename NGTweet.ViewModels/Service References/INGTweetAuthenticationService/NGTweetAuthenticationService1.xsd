@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TweetSharpService.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TweetSharpService.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/TweetSharp" />
+  <xs:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TweetSharpService.DomainObjects" />
+  <xs:complexType name="LoginRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Pin" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="RequestToken" nillable="true" type="q1:OAuthRequestToken" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LoginRequest" nillable="true" type="tns:LoginRequest" />
+  <xs:complexType name="LoginResponse">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="OAuthAccessToken" nillable="true" type="q2:OAuthAccessToken" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LoginResponse" nillable="true" type="tns:LoginResponse" />
+  <xs:complexType name="GetRequestTokenResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthorizationUri" nillable="true" type="xs:anyURI" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="RequestToken" nillable="true" type="q3:OAuthRequestToken" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetRequestTokenResponse" nillable="true" type="tns:GetRequestTokenResponse" />
+  <xs:complexType name="GetTweetResponse">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TweetSharpService.DomainObjects" minOccurs="0" name="TweeterStatuses" nillable="true" type="q4:ArrayOfNGTweeterStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetTweetResponse" nillable="true" type="tns:GetTweetResponse" />
+  <xs:complexType name="GetTweetsRequest">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="AccessToken" nillable="true" type="q5:OAuthAccessToken" />
+      <xs:element minOccurs="0" name="LastTweetId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetTweetsRequest" nillable="true" type="tns:GetTweetsRequest" />
+  <xs:complexType name="SendTweetRequest">
+    <xs:sequence>
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="AccessToken" nillable="true" type="q6:OAuthAccessToken" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SendTweetRequest" nillable="true" type="tns:SendTweetRequest" />
+  <xs:complexType name="SendTweetResponse">
+    <xs:sequence>
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/TweetSharpService.DomainObjects" minOccurs="0" name="TweeterStatus" nillable="true" type="q7:NGTweeterStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SendTweetResponse" nillable="true" type="tns:SendTweetResponse" />
+  <xs:complexType name="RetweetRequest">
+    <xs:sequence>
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/TweetSharp" minOccurs="0" name="AccessToken" nillable="true" type="q8:OAuthAccessToken" />
+      <xs:element minOccurs="0" name="TweetId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RetweetRequest" nillable="true" type="tns:RetweetRequest" />
+  <xs:complexType name="RetweetResponse">
+    <xs:sequence>
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/TweetSharpService.DomainObjects" minOccurs="0" name="TweeterStatus" nillable="true" type="q9:NGTweeterStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RetweetResponse" nillable="true" type="tns:RetweetResponse" />
+</xs:schema>

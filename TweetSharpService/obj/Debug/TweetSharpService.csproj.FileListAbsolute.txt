@@ -1,0 +1,14 @@
+C:\Silverlight\NGTweet\TweetSharpService\obj\Debug\ResolveAssemblyReference.cache
+C:\Silverlight\NGTweet\TweetSharpService\bin\TweetSharpService.dll
+C:\Silverlight\NGTweet\TweetSharpService\bin\TweetSharpService.pdb
+C:\Silverlight\NGTweet\TweetSharpService\bin\Hammock.ClientProfile.dll
+C:\Silverlight\NGTweet\TweetSharpService\bin\Hammock.dll
+C:\Silverlight\NGTweet\TweetSharpService\bin\Newtonsoft.Json.dll
+C:\Silverlight\NGTweet\TweetSharpService\bin\TweetSharp.dll
+C:\Silverlight\NGTweet\TweetSharpService\bin\Hammock.pdb
+C:\Silverlight\NGTweet\TweetSharpService\bin\Hammock.ClientProfile.pdb
+C:\Silverlight\NGTweet\TweetSharpService\bin\Newtonsoft.Json.pdb
+C:\Silverlight\NGTweet\TweetSharpService\bin\Newtonsoft.Json.xml
+C:\Silverlight\NGTweet\TweetSharpService\bin\TweetSharp.pdb
+C:\Silverlight\NGTweet\TweetSharpService\obj\Debug\TweetSharpService.dll
+C:\Silverlight\NGTweet\TweetSharpService\obj\Debug\TweetSharpService.pdb

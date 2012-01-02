@@ -1,0 +1,16 @@
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharpService.Tests.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharpService.Tests.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Hammock.ClientProfile.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Hammock.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharp.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharpService.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharpService.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Hammock.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Hammock.ClientProfile.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Newtonsoft.Json.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Silverlight\NGTweet\TweetSharpService.Tests\bin\Debug\TweetSharp.pdb
+C:\Silverlight\NGTweet\TweetSharpService.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Silverlight\NGTweet\TweetSharpService.Tests\obj\Debug\TweetSharpService.Tests.dll
+C:\Silverlight\NGTweet\TweetSharpService.Tests\obj\Debug\TweetSharpService.Tests.pdb

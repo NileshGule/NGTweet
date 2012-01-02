@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="NGTweet.UserControls.TweetAction"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:toolkit="clr-namespace:System.Windows.Controls.Theming;assembly=System.Windows.Controls.Theming.ExpressionDark"
+             xmlns:toolkitControls="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+             DataContext="{Binding TweetActionViewModel, Source={StaticResource Locator}}">
+
+    <toolkit:ExpressionDarkTheme>
+        <toolkitControls:BusyIndicator IsBusy="{Binding IsBusy}">
+            <StackPanel>
+                <Border >
+                    <TextBox IsReadOnly="True"
+                             Text="Compose"
+                             TextAlignment="Center"
+                             FontWeight="ExtraBold"
+                             Margin="5"
+                             FontSize="18" />
+                </Border>
+
+                <TextBox Text="{Binding TweetText, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}"
+                         UseLayoutRounding="True"
+                         TextWrapping="Wrap"
+                         Height="100"
+                         Width="300"
+                         Margin="5" />
+
+                <Button Content="Send"
+                        Command="{Binding TweetActionCommand, Mode=OneTime}"
+                        IsEnabled="{Binding CanPerformTweetAction, Mode=OneWay}"
+                        HorizontalAlignment="Right"
+                        Margin="10" />
+
+            </StackPanel>
+        </toolkitControls:BusyIndicator>
+    </toolkit:ExpressionDarkTheme>
+</UserControl>

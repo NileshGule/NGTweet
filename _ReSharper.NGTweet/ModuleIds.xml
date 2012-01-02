@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="A7068F6C-53A0-4185-9D85-26FF919AF595" ModuleId="TweetSharpService" />
+  <Module PersistentId="66BA630E-134F-4F00-B160-6C863F012908" ModuleId="NGTweet" />
+  <Module PersistentId="3E135871-886F-421A-877A-93A3C4296552" ModuleId="NGTweet.ViewModelTests" />
+  <Module PersistentId="90A51838-64CC-46A7-A22B-22A5A6B51984" ModuleId="NGTweet.ViewModels" />
+  <Module PersistentId="02EB1423-1F53-4DA3-8D29-19C5B2A63607" ModuleId="TweetSharpService.Tests" />
+  <Module PersistentId="7B5C9502-82E1-4348-8158-2BB7C825327E" ModuleId="NGTweet.Web" />
+</Modules>

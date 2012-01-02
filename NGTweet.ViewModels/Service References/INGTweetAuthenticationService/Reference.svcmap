@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="617a69f2-b2c5-4748-b439-63e148ff8246" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1883/NGTweetAuthenticationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NGTweetAuthenticationService.xsd" MetadataType="Schema" ID="7b95a93a-32b8-4d6e-b717-5dafdbd1a880" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd3" />
+    <MetadataFile FileName="NGTweetAuthenticationService.disco" MetadataType="Disco" ID="1c0e9122-7542-4a77-9b88-7c3fd37d8afa" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?disco" />
+    <MetadataFile FileName="NGTweetAuthenticationService1.xsd" MetadataType="Schema" ID="4724a3a7-d8af-4a4a-b5d7-2f76ff33e58d" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NGTweetAuthenticationService.wsdl" MetadataType="Wsdl" ID="0a5ab87f-95f3-4a47-a56f-9c3d83e45e0f" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?wsdl" />
+    <MetadataFile FileName="NGTweetAuthenticationService2.xsd" MetadataType="Schema" ID="4e256f0f-f789-4eb1-a86f-c3debdc57570" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="NGTweetAuthenticationService3.xsd" MetadataType="Schema" ID="39178e18-b2fc-446d-90b9-d446aae7f1c0" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd4" />
+    <MetadataFile FileName="NGTweetAuthenticationService4.xsd" MetadataType="Schema" ID="0a5ade5f-309c-4e3f-a78b-17a1d974c6e0" SourceId="1" SourceUrl="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NGTweetAuthenticationService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TweetSharpService.DTO" />
+      <xsd:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/TweetSharp" />
+      <xsd:import schemaLocation="http://localhost:1883/NGTweetAuthenticationService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/TweetSharpService.DomainObjects" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INGTweetAuthenticationService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetRequestToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestToken" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetRequestToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequestTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweets_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweets" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweetsMentioningMe_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweetsMentioningMe" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweetsMentioningMe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweetsMentioningMeResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweetsSince_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweetsSince" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_GetTweetsSince_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTweetsSinceResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_SendTweet_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendTweet" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_SendTweet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendTweetResponse" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_Retweet_InputMessage">
+    <wsdl:part name="parameters" element="tns:Retweet" />
+  </wsdl:message>
+  <wsdl:message name="INGTweetAuthenticationService_Retweet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RetweetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INGTweetAuthenticationService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/Login" message="tns:INGTweetAuthenticationService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/LoginResponse" message="tns:INGTweetAuthenticationService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetRequestToken" message="tns:INGTweetAuthenticationService_GetRequestToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetRequestTokenResponse" message="tns:INGTweetAuthenticationService_GetRequestToken_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTweets">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweets" message="tns:INGTweetAuthenticationService_GetTweets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweetsResponse" message="tns:INGTweetAuthenticationService_GetTweets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTweetsMentioningMe">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweetsMentioningMe" message="tns:INGTweetAuthenticationService_GetTweetsMentioningMe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweetsMentioningMeResponse" message="tns:INGTweetAuthenticationService_GetTweetsMentioningMe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTweetsSince">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweetsSince" message="tns:INGTweetAuthenticationService_GetTweetsSince_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/GetTweetsSinceResponse" message="tns:INGTweetAuthenticationService_GetTweetsSince_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendTweet">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/SendTweet" message="tns:INGTweetAuthenticationService_SendTweet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/SendTweetResponse" message="tns:INGTweetAuthenticationService_SendTweet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Retweet">
+      <wsdl:input wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/Retweet" message="tns:INGTweetAuthenticationService_Retweet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INGTweetAuthenticationService/RetweetResponse" message="tns:INGTweetAuthenticationService_Retweet_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_INGTweetAuthenticationService" type="tns:INGTweetAuthenticationService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestToken">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/GetRequestToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTweets">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/GetTweets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTweetsMentioningMe">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/GetTweetsMentioningMe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTweetsSince">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/GetTweetsSince" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendTweet">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/SendTweet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Retweet">
+      <soap:operation soapAction="http://tempuri.org/INGTweetAuthenticationService/Retweet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NGTweetAuthenticationService">
+    <wsdl:port name="BasicHttpBinding_INGTweetAuthenticationService" binding="tns:BasicHttpBinding_INGTweetAuthenticationService">
+      <soap:address location="http://localhost:1883/NGTweetAuthenticationService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
